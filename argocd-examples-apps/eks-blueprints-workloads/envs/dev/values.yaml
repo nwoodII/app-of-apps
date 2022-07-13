@@ -5,6 +5,6 @@ spec:
     #repoURL: https://github.com/aws-samples/eks-blueprints-workloads
     repoURL: https://github.com/nwoodII/app-of-apps
     #targetRevision: main
-    targetRevision: main
+    targetRevision: master
   ingress:
     host: dev.example.com
