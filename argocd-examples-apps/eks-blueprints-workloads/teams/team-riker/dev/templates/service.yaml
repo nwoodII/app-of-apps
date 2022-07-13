@@ -9,4 +9,5 @@ spec:
     protocol: TCP
   type: NodePort
   selector:
-    app: guestbook-ui
+    matchLabels:
+      app: guestbook-ui
