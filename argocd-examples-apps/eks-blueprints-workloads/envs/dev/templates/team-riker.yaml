@@ -13,7 +13,8 @@ spec:
   source:
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-    path: teams/team-riker/dev
+    #path: teams/team-riker/dev
+    path: argocd-examples-apps/eks-blueprints-workloads/teams/team-riker/dev
     helm:
       parameters:
       - name: spec.ingress.host
